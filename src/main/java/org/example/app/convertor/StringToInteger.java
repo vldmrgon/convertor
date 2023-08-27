@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 public class StringToInteger implements IConvertor<String, Integer> {
     @Override
     public Integer convert(String s) {
-        log.info("Work method transform, String to Integer");
+        log.info("Works method transform, String to Integer");
         return Integer.parseInt(s);
     }
 }

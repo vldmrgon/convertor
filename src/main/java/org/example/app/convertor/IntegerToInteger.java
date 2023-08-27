@@ -8,7 +8,7 @@ import lombok.extern.log4j.Log4j2;
 public class IntegerToInteger implements IConvertor<Integer, Integer> {
     @Override
     public Integer convert(Integer t) {
-        log.info("Work method transform, Integer to Integer");
+        log.info("Works method transform, Integer to Integer");
         return t;
     }
 }
